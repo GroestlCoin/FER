@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{52868A08-CB5A-4602-8620-2D3BF7BED736}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CrtajMe</RootNamespace>
+    <AssemblyName>CrtajMe</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aboutFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aboutFrm.Designer.cs">
+      <DependentUpon>aboutFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="noviSkupFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="noviSkupFrm.Designer.cs">
+      <DependentUpon>noviSkupFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="prikaziFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prikaziFrm.Designer.cs">
+      <DependentUpon>prikaziFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainFrm.Designer.cs">
+      <DependentUpon>mainFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rezFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rezFrm.Designer.cs">
+      <DependentUpon>rezFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="skupoviFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="skupoviFrm.Designer.cs">
+      <DependentUpon>skupoviFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="vizualniPrikazFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vizualniPrikazFrm.Designer.cs">
+      <DependentUpon>vizualniPrikazFrm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="aboutFrm.resx">
+      <DependentUpon>aboutFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainFrm.resx">
+      <DependentUpon>mainFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="noviSkupFrm.resx">
+      <DependentUpon>noviSkupFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prikaziFrm.resx">
+      <DependentUpon>prikaziFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rezFrm.resx">
+      <DependentUpon>rezFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="skupoviFrm.resx">
+      <DependentUpon>skupoviFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="vizualniPrikazFrm.resx">
+      <DependentUpon>vizualniPrikazFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CrtajMeControllers\CrtajMeControllers.csproj">
+      <Project>{61D94C28-DC04-4ACD-90F9-EC5A96861F39}</Project>
+      <Name>CrtajMeControllers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CrtajMeModel\CrtajMeModel.csproj">
+      <Project>{CA3CFF5A-EAD8-4006-B6EE-FD9665199CCD}</Project>
+      <Name>CrtajMeModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CrtajMeUtil\CrtajMeUtil.csproj">
+      <Project>{17920D5D-E09F-45DA-B165-C4561F5E8AD5}</Project>
+      <Name>CrtajMeUtil</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,9 @@
+C:\Users\Dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMeControllers\bin\Debug\CrtajMeControllers.dll
+C:\Users\Dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMeControllers\bin\Debug\CrtajMeControllers.pdb
+C:\Users\Dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMeControllers\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMeControllers\obj\Debug\CrtajMeControllers.dll
+C:\Users\Dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMeControllers\obj\Debug\CrtajMeControllers.pdb
+C:\Users\Dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMeControllers\bin\Debug\CrtajMeUtil.dll
+C:\Users\Dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMeControllers\bin\Debug\CrtajMeUtil.pdb
+C:\Users\Dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMeControllers\bin\Debug\CrtajMeModel.dll
+C:\Users\Dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMeControllers\bin\Debug\CrtajMeModel.pdb

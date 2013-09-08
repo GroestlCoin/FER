@@ -1,0 +1,2 @@
+InputPattern-HardParsingProblem
+Prva linija ulaza

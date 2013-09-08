@@ -1,0 +1,10 @@
+c:\users\dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMe\bin\Debug\CrtajMe.exe
+c:\users\dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMe\bin\Debug\CrtajMe.pdb
+c:\users\dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMe\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMe\obj\x86\Debug\CrtajMe.mainForm.resources
+c:\users\dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMe\obj\x86\Debug\CrtajMe.Properties.Resources.resources
+c:\users\dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMe\obj\x86\Debug\ResGen.read.1.tlog
+c:\users\dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMe\obj\x86\Debug\ResGen.write.1.tlog
+c:\users\dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMe\obj\x86\Debug\CrtajMe.exe
+c:\users\dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMe\obj\x86\Debug\CrtajMe.pdb
+C:\Users\Dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMe\obj\x86\Debug\CrtajMe.CrtajMeView.rezFrm.resources

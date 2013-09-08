@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7b930fd3-8618-41d7-8046-b8ce1eba85b1" name="Dino@ACER5755 2013-02-06 18:04:38" runUser="acer5755\Dino" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="014741f2-b0da-4e4a-8094-2a645da384d8">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Dino_ACER5755 2013-02-06 18_04_38">
+      <DeploymentItem filename="C:\Users\Dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMeUtil\bin\Debug\CrtajMeUtil.dll" />
+      <DeploymentItem filename="C:\Users\Dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMeModel\bin\Debug\CrtajMeModel.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-02-06T18:04:38.9982022+01:00" queuing="2013-02-06T18:04:39.0368036+01:00" start="2013-02-06T18:04:39.0524036+01:00" finish="2013-02-06T18:04:39.3644041+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="13" executed="13" passed="13" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="UbaciPrikaz" storage="c:\users\dino\documents\visual studio 2010\projects\crtajme\crtajmetest\bin\debug\crtajmetest.dll" id="47a7c0cd-eef0-2100-d5a8-a88597b8c78f">
+      <Execution id="ffe1e832-fe13-4fbd-bc18-c33a65874761" />
+      <TestMethod codeBase="C:/Users/Dino/Documents/Visual Studio 2010/Projects/CrtajMe/CrtajMeTest/bin/Debug/CrtajMeTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CrtajMeTest.CrtajMeTest, CrtajMeTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UbaciPrikaz" />
+    </UnitTest>
+    <UnitTest name="IzbrisiPrikazIzSkupa" storage="c:\users\dino\documents\visual studio 2010\projects\crtajme\crtajmetest\bin\debug\crtajmetest.dll" id="baa326aa-14b1-e23f-1df0-6030494caecd">
+      <Execution id="15b58e1d-d76d-41d5-9018-b674920b0bbb" />
+      <TestMethod codeBase="C:/Users/Dino/Documents/Visual Studio 2010/Projects/CrtajMe/CrtajMeTest/bin/Debug/CrtajMeTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CrtajMeTest.CrtajMeTest, CrtajMeTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IzbrisiPrikazIzSkupa" />
+    </UnitTest>
+    <UnitTest name="ValjanIzlazniObrazac" storage="c:\users\dino\documents\visual studio 2010\projects\crtajme\crtajmetest\bin\debug\crtajmetest.dll" id="2c73cddb-35bc-9a6b-e3dc-14e378f8cd99">
+      <Execution id="c099a039-d602-49c1-b931-9ddbc2644829" />
+      <TestMethod codeBase="C:/Users/Dino/Documents/Visual Studio 2010/Projects/CrtajMe/CrtajMeTest/bin/Debug/CrtajMeTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CrtajMeTest.CrtajMeTest, CrtajMeTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ValjanIzlazniObrazac" />
+    </UnitTest>
+    <UnitTest name="TesitranjeNicega" storage="c:\users\dino\documents\visual studio 2010\projects\crtajme\crtajmetest\bin\debug\crtajmetest.dll" id="be8b313b-dbc2-7c86-79cb-6f305263bd83">
+      <Execution id="6f10525f-65b2-4406-8477-892c33a6c490" />
+      <TestMethod codeBase="C:/Users/Dino/Documents/Visual Studio 2010/Projects/CrtajMe/CrtajMeTest/bin/Debug/CrtajMeTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CrtajMeTest.CrtajMeTest, CrtajMeTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TesitranjeNicega" />
+    </UnitTest>
+    <UnitTest name="NevaljanIzlazniObrazac" storage="c:\users\dino\documents\visual studio 2010\projects\crtajme\crtajmetest\bin\debug\crtajmetest.dll" id="ab468114-65fb-c3f0-ff39-1871e270bc26">
+      <Execution id="5f79d94d-af84-4d9e-829d-ac7e2001d2f0" />
+      <TestMethod codeBase="C:/Users/Dino/Documents/Visual Studio 2010/Projects/CrtajMe/CrtajMeTest/bin/Debug/CrtajMeTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CrtajMeTest.CrtajMeTest, CrtajMeTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NevaljanIzlazniObrazac" />
+    </UnitTest>
+    <UnitTest name="UbaciPrikazUSkupRazlicitiTipovi" storage="c:\users\dino\documents\visual studio 2010\projects\crtajme\crtajmetest\bin\debug\crtajmetest.dll" id="9806017f-4de0-a8bd-fb14-64fc2a6d62ef">
+      <Execution id="c30f41a9-a8fb-432b-a19c-33f6efb0523c" />
+      <TestMethod codeBase="C:/Users/Dino/Documents/Visual Studio 2010/Projects/CrtajMe/CrtajMeTest/bin/Debug/CrtajMeTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CrtajMeTest.CrtajMeTest, CrtajMeTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UbaciPrikazUSkupRazlicitiTipovi" />
+    </UnitTest>
+    <UnitTest name="KomunikacijaPrikaz" storage="c:\users\dino\documents\visual studio 2010\projects\crtajme\crtajmetest\bin\debug\crtajmetest.dll" id="0f8b20c6-514c-e4e7-8863-62f78eee49b0">
+      <Execution id="da5c255f-a962-431e-a220-bca01f26a48d" />
+      <TestMethod codeBase="C:/Users/Dino/Documents/Visual Studio 2010/Projects/CrtajMe/CrtajMeTest/bin/Debug/CrtajMeTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CrtajMeTest.CrtajMeTest, CrtajMeTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="KomunikacijaPrikaz" />
+    </UnitTest>
+    <UnitTest name="UbaciSkup" storage="c:\users\dino\documents\visual studio 2010\projects\crtajme\crtajmetest\bin\debug\crtajmetest.dll" id="8d3dbf50-fa02-dcfa-dbf6-ec8d4206bded">
+      <Execution id="95e7a65a-89af-40f4-861e-ae346db4d489" />
+      <TestMethod codeBase="C:/Users/Dino/Documents/Visual Studio 2010/Projects/CrtajMe/CrtajMeTest/bin/Debug/CrtajMeTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CrtajMeTest.CrtajMeTest, CrtajMeTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UbaciSkup" />
+    </UnitTest>
+    <UnitTest name="ProvjeriDaLiSeUcitajuTipoviPrikaza" storage="c:\users\dino\documents\visual studio 2010\projects\crtajme\crtajmetest\bin\debug\crtajmetest.dll" id="b4d65f30-7adb-993c-25af-e9c26c34aa58">
+      <Execution id="16c14c65-f738-4ed0-99da-e69af3e162a8" />
+      <TestMethod codeBase="C:/Users/Dino/Documents/Visual Studio 2010/Projects/CrtajMe/CrtajMeTest/bin/Debug/CrtajMeTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CrtajMeTest.CrtajMeTest, CrtajMeTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProvjeriDaLiSeUcitajuTipoviPrikaza" />
+    </UnitTest>
+    <UnitTest name="RacunajProsjekIPrihvatljivost" storage="c:\users\dino\documents\visual studio 2010\projects\crtajme\crtajmetest\bin\debug\crtajmetest.dll" id="850d2a4c-5fe6-ab04-c884-3bf6361ec91d">
+      <Execution id="023cfde3-8a2e-4819-8c23-555636c5d76d" />
+      <TestMethod codeBase="C:/Users/Dino/Documents/Visual Studio 2010/Projects/CrtajMe/CrtajMeTest/bin/Debug/CrtajMeTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CrtajMeTest.CrtajMeTest, CrtajMeTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RacunajProsjekIPrihvatljivost" />
+    </UnitTest>
+    <UnitTest name="ValjaniUlazniObrazac" storage="c:\users\dino\documents\visual studio 2010\projects\crtajme\crtajmetest\bin\debug\crtajmetest.dll" id="c287db53-1917-af0e-d7a6-3e3eb4969a83">
+      <Execution id="89271549-2ebc-48eb-a05f-e85a992ba655" />
+      <TestMethod codeBase="C:/Users/Dino/Documents/Visual Studio 2010/Projects/CrtajMe/CrtajMeTest/bin/Debug/CrtajMeTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CrtajMeTest.CrtajMeTest, CrtajMeTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ValjaniUlazniObrazac" />
+    </UnitTest>
+    <UnitTest name="IzbrisiSkup" storage="c:\users\dino\documents\visual studio 2010\projects\crtajme\crtajmetest\bin\debug\crtajmetest.dll" id="099bd100-9a07-836d-2629-78417a206b4c">
+      <Execution id="30e5e19d-b054-4b95-a93a-027e018cd250" />
+      <TestMethod codeBase="C:/Users/Dino/Documents/Visual Studio 2010/Projects/CrtajMe/CrtajMeTest/bin/Debug/CrtajMeTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CrtajMeTest.CrtajMeTest, CrtajMeTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IzbrisiSkup" />
+    </UnitTest>
+    <UnitTest name="NevaljanUlazniObrazac" storage="c:\users\dino\documents\visual studio 2010\projects\crtajme\crtajmetest\bin\debug\crtajmetest.dll" id="69afa55d-1a4e-2f63-a2e9-7863626d4e24">
+      <Execution id="64ef7596-8941-4aeb-8222-6de50753d8f9" />
+      <TestMethod codeBase="C:/Users/Dino/Documents/Visual Studio 2010/Projects/CrtajMe/CrtajMeTest/bin/Debug/CrtajMeTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CrtajMeTest.CrtajMeTest, CrtajMeTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NevaljanUlazniObrazac" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="099bd100-9a07-836d-2629-78417a206b4c" executionId="30e5e19d-b054-4b95-a93a-027e018cd250" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f8b20c6-514c-e4e7-8863-62f78eee49b0" executionId="da5c255f-a962-431e-a220-bca01f26a48d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c73cddb-35bc-9a6b-e3dc-14e378f8cd99" executionId="c099a039-d602-49c1-b931-9ddbc2644829" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47a7c0cd-eef0-2100-d5a8-a88597b8c78f" executionId="ffe1e832-fe13-4fbd-bc18-c33a65874761" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69afa55d-1a4e-2f63-a2e9-7863626d4e24" executionId="64ef7596-8941-4aeb-8222-6de50753d8f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="850d2a4c-5fe6-ab04-c884-3bf6361ec91d" executionId="023cfde3-8a2e-4819-8c23-555636c5d76d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d3dbf50-fa02-dcfa-dbf6-ec8d4206bded" executionId="95e7a65a-89af-40f4-861e-ae346db4d489" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9806017f-4de0-a8bd-fb14-64fc2a6d62ef" executionId="c30f41a9-a8fb-432b-a19c-33f6efb0523c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab468114-65fb-c3f0-ff39-1871e270bc26" executionId="5f79d94d-af84-4d9e-829d-ac7e2001d2f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b4d65f30-7adb-993c-25af-e9c26c34aa58" executionId="16c14c65-f738-4ed0-99da-e69af3e162a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="baa326aa-14b1-e23f-1df0-6030494caecd" executionId="15b58e1d-d76d-41d5-9018-b674920b0bbb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be8b313b-dbc2-7c86-79cb-6f305263bd83" executionId="6f10525f-65b2-4406-8477-892c33a6c490" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c287db53-1917-af0e-d7a6-3e3eb4969a83" executionId="89271549-2ebc-48eb-a05f-e85a992ba655" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="30e5e19d-b054-4b95-a93a-027e018cd250" testId="099bd100-9a07-836d-2629-78417a206b4c" testName="IzbrisiSkup" computerName="ACER5755" duration="00:00:00.0192140" startTime="2013-02-06T18:04:39.0524036+01:00" endTime="2013-02-06T18:04:39.2552039+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30e5e19d-b054-4b95-a93a-027e018cd250">
+    </UnitTestResult>
+    <UnitTestResult executionId="da5c255f-a962-431e-a220-bca01f26a48d" testId="0f8b20c6-514c-e4e7-8863-62f78eee49b0" testName="KomunikacijaPrikaz" computerName="ACER5755" duration="00:00:00.0024457" startTime="2013-02-06T18:04:39.2552039+01:00" endTime="2013-02-06T18:04:39.2552039+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da5c255f-a962-431e-a220-bca01f26a48d">
+    </UnitTestResult>
+    <UnitTestResult executionId="c099a039-d602-49c1-b931-9ddbc2644829" testId="2c73cddb-35bc-9a6b-e3dc-14e378f8cd99" testName="ValjanIzlazniObrazac" computerName="ACER5755" duration="00:00:00.0018602" startTime="2013-02-06T18:04:39.2552039+01:00" endTime="2013-02-06T18:04:39.2708040+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c099a039-d602-49c1-b931-9ddbc2644829">
+    </UnitTestResult>
+    <UnitTestResult executionId="ffe1e832-fe13-4fbd-bc18-c33a65874761" testId="47a7c0cd-eef0-2100-d5a8-a88597b8c78f" testName="UbaciPrikaz" computerName="ACER5755" duration="00:00:00.0031422" startTime="2013-02-06T18:04:39.2708040+01:00" endTime="2013-02-06T18:04:39.2864040+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ffe1e832-fe13-4fbd-bc18-c33a65874761">
+      <Output>
+        <StdOut>TipTocke</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="64ef7596-8941-4aeb-8222-6de50753d8f9" testId="69afa55d-1a4e-2f63-a2e9-7863626d4e24" testName="NevaljanUlazniObrazac" computerName="ACER5755" duration="00:00:00.0048632" startTime="2013-02-06T18:04:39.2864040+01:00" endTime="2013-02-06T18:04:39.2864040+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64ef7596-8941-4aeb-8222-6de50753d8f9">
+    </UnitTestResult>
+    <UnitTestResult executionId="023cfde3-8a2e-4819-8c23-555636c5d76d" testId="850d2a4c-5fe6-ab04-c884-3bf6361ec91d" testName="RacunajProsjekIPrihvatljivost" computerName="ACER5755" duration="00:00:00.0017808" startTime="2013-02-06T18:04:39.2864040+01:00" endTime="2013-02-06T18:04:39.3020040+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="023cfde3-8a2e-4819-8c23-555636c5d76d">
+    </UnitTestResult>
+    <UnitTestResult executionId="95e7a65a-89af-40f4-861e-ae346db4d489" testId="8d3dbf50-fa02-dcfa-dbf6-ec8d4206bded" testName="UbaciSkup" computerName="ACER5755" duration="00:00:00.0003275" startTime="2013-02-06T18:04:39.3020040+01:00" endTime="2013-02-06T18:04:39.3020040+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95e7a65a-89af-40f4-861e-ae346db4d489">
+    </UnitTestResult>
+    <UnitTestResult executionId="c30f41a9-a8fb-432b-a19c-33f6efb0523c" testId="9806017f-4de0-a8bd-fb14-64fc2a6d62ef" testName="UbaciPrikazUSkupRazlicitiTipovi" computerName="ACER5755" duration="00:00:00.0006697" startTime="2013-02-06T18:04:39.3020040+01:00" endTime="2013-02-06T18:04:39.3176040+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c30f41a9-a8fb-432b-a19c-33f6efb0523c">
+    </UnitTestResult>
+    <UnitTestResult executionId="5f79d94d-af84-4d9e-829d-ac7e2001d2f0" testId="ab468114-65fb-c3f0-ff39-1871e270bc26" testName="NevaljanIzlazniObrazac" computerName="ACER5755" duration="00:00:00.0013872" startTime="2013-02-06T18:04:39.3176040+01:00" endTime="2013-02-06T18:04:39.3176040+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f79d94d-af84-4d9e-829d-ac7e2001d2f0">
+    </UnitTestResult>
+    <UnitTestResult executionId="16c14c65-f738-4ed0-99da-e69af3e162a8" testId="b4d65f30-7adb-993c-25af-e9c26c34aa58" testName="ProvjeriDaLiSeUcitajuTipoviPrikaza" computerName="ACER5755" duration="00:00:00.0004100" startTime="2013-02-06T18:04:39.3176040+01:00" endTime="2013-02-06T18:04:39.3332041+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16c14c65-f738-4ed0-99da-e69af3e162a8">
+    </UnitTestResult>
+    <UnitTestResult executionId="15b58e1d-d76d-41d5-9018-b674920b0bbb" testId="baa326aa-14b1-e23f-1df0-6030494caecd" testName="IzbrisiPrikazIzSkupa" computerName="ACER5755" duration="00:00:00.0010410" startTime="2013-02-06T18:04:39.3332041+01:00" endTime="2013-02-06T18:04:39.3332041+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="15b58e1d-d76d-41d5-9018-b674920b0bbb">
+    </UnitTestResult>
+    <UnitTestResult executionId="6f10525f-65b2-4406-8477-892c33a6c490" testId="be8b313b-dbc2-7c86-79cb-6f305263bd83" testName="TesitranjeNicega" computerName="ACER5755" duration="00:00:00.0037589" startTime="2013-02-06T18:04:39.3332041+01:00" endTime="2013-02-06T18:04:39.3488041+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f10525f-65b2-4406-8477-892c33a6c490">
+    </UnitTestResult>
+    <UnitTestResult executionId="89271549-2ebc-48eb-a05f-e85a992ba655" testId="c287db53-1917-af0e-d7a6-3e3eb4969a83" testName="ValjaniUlazniObrazac" computerName="ACER5755" duration="00:00:00.0015416" startTime="2013-02-06T18:04:39.3488041+01:00" endTime="2013-02-06T18:04:39.3488041+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89271549-2ebc-48eb-a05f-e85a992ba655">
+    </UnitTestResult>
+  </Results>
+</TestRun>

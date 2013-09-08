@@ -1,0 +1,7 @@
+C:\Users\Dino\Documents\Visual Studio 2010\Projects\CrtajMe\CrtajMeModel\bin\Debug\CrtajMeModel.dll
+C:\Users\Dino\Documents\Visual Studio 2010\Projects\CrtajMe\CrtajMeModel\bin\Debug\CrtajMeModel.pdb
+C:\Users\Dino\Documents\Visual Studio 2010\Projects\CrtajMe\CrtajMeModel\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dino\Documents\Visual Studio 2010\Projects\CrtajMe\CrtajMeModel\obj\Debug\CrtajMeModel.dll
+C:\Users\Dino\Documents\Visual Studio 2010\Projects\CrtajMe\CrtajMeModel\obj\Debug\CrtajMeModel.pdb
+C:\Users\Dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMeModel\bin\Debug\CrtajMeUtil.dll
+C:\Users\Dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMeModel\bin\Debug\CrtajMeUtil.pdb

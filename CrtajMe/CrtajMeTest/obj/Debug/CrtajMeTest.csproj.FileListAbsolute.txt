@@ -1,0 +1,9 @@
+C:\Users\Dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMeTest\bin\Debug\CrtajMeTest.dll
+C:\Users\Dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMeTest\bin\Debug\CrtajMeTest.pdb
+C:\Users\Dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMeTest\bin\Debug\CrtajMeModel.dll
+C:\Users\Dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMeTest\bin\Debug\CrtajMeUtil.dll
+C:\Users\Dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMeTest\bin\Debug\CrtajMeModel.pdb
+C:\Users\Dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMeTest\bin\Debug\CrtajMeUtil.pdb
+C:\Users\Dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMeTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMeTest\obj\Debug\CrtajMeTest.dll
+C:\Users\Dino\documents\visual studio 2010\Projects\CrtajMe\CrtajMeTest\obj\Debug\CrtajMeTest.pdb

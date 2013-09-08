@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CrtajMeModel.IzlazniObrazac">
+    <Position X="8.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAIIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IzlazniObrazac.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrtajMeModel.Prikaz">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEggAAAAAAAAAAAQAAAAAAAAAASAACQECADA=</HashCode>
+      <FileName>Prikaz.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_pointList" />
+      <Field Name="_lineList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CrtajMeModel.Skup">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIQACAAAIIABAAAAAAAAAIQAAAIAACAAAQAAAgAAAAA=</HashCode>
+      <FileName>Skup.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_listaPrikaza" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CrtajMeModel.Tester">
+    <Position X="8.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAgAAAAAAIAAAEAEAAIAABAAAAIAAAQAgAAA=</HashCode>
+      <FileName>Tester.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_ulazniObrazac" />
+      <Field Name="_izlazniObrazac" />
+      <Field Name="_prikaz" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CrtajMeModel.TipFunkcija">
+    <Position X="4.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAgAAAAAgAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TipFunkcija.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrtajMeModel.TipTocke">
+    <Position X="6.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAEAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TipTocke.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrtajMeModel.UlazniObrazac">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAABAAAAAAAAQAAAAIAAAAAACAAAAAAAA=</HashCode>
+      <FileName>UlazniObrazac.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrtajMeModel.Point" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAYAA=</HashCode>
+      <FileName>Strukture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrtajMeModel.Line" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIADAAAAAIABAAAAAAAwAAAAAAA=</HashCode>
+      <FileName>Strukture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrtajMeModel.UlazniObrazacIzDatoteke">
+    <Position X="11.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UlazniObrazacIzDatoteke.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrtajMeModel.IzlazniObrazacCitajPisi">
+    <Position X="8.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IzlazniObrazacCitajPisi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrtajMeModel.PrikazRepos">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEEABQAAAAAAAAAAAAAAIACABAIAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\PrikazRepos.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_listaPrikaz" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CrtajMeModel.SkupRepos">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEAIAAAAAAgAAAAAAAAARAIAAAEAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\SkupRepos.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_skupList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CrtajMeModel.IzlazniObrazacRepos">
+    <Position X="11.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEAAACAAAAAAAAAAAAAIAAAAAAAAAAQAAAAAAAAAI=</HashCode>
+      <FileName>Repositories\IzlazniObrazacRepos.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_listObrazac" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CrtajMeModel.UlazniObrazacRepos">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <AssociationLine Name="_listObrazac" Type="CrtajMeModel.UlazniObrazac" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="16.25" Y="4.5" />
+        <Point X="16.25" Y="3.792" />
+        <Point X="13.25" Y="3.792" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIEAAACAAAAAAAAAAAAAIAAAAAAAAAAQAAAAAAAAAI=</HashCode>
+      <FileName>Repositories\UlazniObrazacRepos.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_listObrazac" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

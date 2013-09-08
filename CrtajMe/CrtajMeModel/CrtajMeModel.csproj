@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CA3CFF5A-EAD8-4006-B6EE-FD9665199CCD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CrtajMeModel</RootNamespace>
+    <AssemblyName>CrtajMeModel</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ExceptionClass.cs" />
+    <Compile Include="Factories\IzlazniObrazacFactory.cs" />
+    <Compile Include="Factories\PrikazFactory.cs" />
+    <Compile Include="Factories\SkupFactory.cs" />
+    <Compile Include="Factories\UlazniObrazacFactory.cs" />
+    <Compile Include="IzlazniObrazac.cs" />
+    <Compile Include="IzlazniObrazacCitajPisi.cs" />
+    <Compile Include="Repositories\IzlazniObrazacRepos.cs" />
+    <Compile Include="Repositories\PrikazRepos.cs" />
+    <Compile Include="Skup.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\SkupRepos.cs" />
+    <Compile Include="Tester.cs" />
+    <Compile Include="TipFunkcija.cs" />
+    <Compile Include="Prikaz.cs" />
+    <Compile Include="TipTocke.cs" />
+    <Compile Include="Strukture.cs" />
+    <Compile Include="UlazniObrazac.cs" />
+    <Compile Include="UlazniObrazacIzDatoteke.cs" />
+    <Compile Include="Repositories\UlazniObrazacRepos.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CrtajMeUtil\CrtajMeUtil.csproj">
+      <Project>{17920D5D-E09F-45DA-B165-C4561F5E8AD5}</Project>
+      <Name>CrtajMeUtil</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
